@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-calc{
+    color: #f5f5f5;
+    background-color: #006666;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #cccccc;
+    margin:10px 600px 10px 600px;
+}
+
+.div-box-calc{
+    
+    position: relative;
+    width: 360px;
+    height: 640px;
+    border: solid black;
+    border-radius: 25px;
+    
+}
+
+.calc-btns{
+    border: solid black;
+    margin: 5px 700px 5px 700px;
+}
+
+.btn-numbers-calc{
+    padding: 15px 32px;
+}

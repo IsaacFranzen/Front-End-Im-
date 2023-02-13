@@ -1,0 +1,111 @@
+:root{
+    --verde-agua-escuro: #006666;
+    --verde-agua-claro: #008584;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--verde-agua-claro);
+}
+header{
+    color: #f5f5f5;
+    background-color: var(--verde-agua-escuro);
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px;    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+nav{
+    position: absolute;
+    top:15px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #f5f5f5;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div-box-calc{
+    width: 400px;
+    padding: 0.5em;
+    color: black;
+    border-radius: 10px;
+    border: solid var(--verde-agua-escuro) 5px;
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;   
+}
+
+#div-btns{
+    display: grid;
+    margin: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#operations{
+    text-align: right;
+    background-color: white;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+#previous-operation{
+    color: #777;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+  }
+
+  #current-operation {
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+  }
+
+#div-btns button{
+    border: solid var(--verde-agua-escuro) 1px;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    height: 4em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#div-btns .number{
+ background-color:white ;
+}
+
+#div-btns button:hover{
+    background-color: gray;
+}
+
+#div-btns #igual{
+    grid-column: span 2;
+    background-color: var(--verde-agua-claro);
+}
+
+#div-btns #igual:hover{
+    background-color: var(--verde-agua-escuro);
+}
