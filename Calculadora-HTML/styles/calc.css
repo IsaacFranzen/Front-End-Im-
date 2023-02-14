@@ -27,6 +27,16 @@ main{
     padding: 100px;
 }
 
+.fotoPerfil{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    border: 2px solid white;
+    margin-left: 650px;
+}
+
 nav{
     position: absolute;
     top:15px;
